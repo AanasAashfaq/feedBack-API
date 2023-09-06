@@ -15,7 +15,7 @@ function HomePage() {
 
     console.log(data);
 
-    fetch('/api/feedback',{
+    fetch('https://feed-back-api-iota.vercel.app'+'/api/feedback',{
       method:'POST',
       body:JSON.stringify(data),
       headers:{
